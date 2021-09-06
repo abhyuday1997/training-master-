@@ -30,8 +30,8 @@ col = df.columns
 print(col)
 for i in col:
 	print(i)
-    for j in df[i]:
-        print( "original : {0} , Data_Type : {1}" .format(j,type(j)))
+	for j in df[i]:
+		print( "original : {0} , Data_Type : {1}" .format(j,type(j)))
         
 
 

@@ -14,3 +14,6 @@ print("\nHere is the list in its original order:")
 # Show that the list is still in its original order.
 for student in students:
     print(student.title())
+
+for student in students:
+    print(student.lower())
